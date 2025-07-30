@@ -4,21 +4,39 @@ body{
 
 #dionisio {
   display: flex;
-  font-size: 100px;
+  font-size: 200px;
   justify-content: center;
   align-items: center;
   margin: auto;
 }
 
 main{
-  border: solid;
+  /* border: solid; */
   display: block;
 
   background-color: #310959;
-  padding: 20px;
+  padding: 60px;
+  padding-top: 20px;
+  border-radius: 10%;
+
+  margin: 5% 5% 2% 0% ;
+}
+
+main h1{
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+a{
+  display: flex;
 }
 
 img{
+  margin: auto;
+
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -34,7 +52,9 @@ div{
 #botao{
   background-color: transparent;
   display: flex;
-  border: solid;
+  margin: 0;
+  padding: 10px;
+ /* border: solid; */
 }
 
 input{
@@ -44,14 +64,23 @@ input{
   border: transparent;
   border-radius: 50px;
   background-color: #310959;
+  
   color: aliceblue;
   font-size: 40px;
-  
+  font-family:"Irish Grover", system-ui;
+
   width: 400px;
   height: 100px;
 
 }
 
 p{
+  /* border: solid; */
+  margin: 0;
+  padding: 10px;
   text-align: center;
+
+  font-family: "Jersey 15", sans-serif ;
+  font-size: 30px;
+
 }
