@@ -1,0 +1,57 @@
+body{
+  display: flex;
+}
+
+#dionisio {
+  display: flex;
+  font-size: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+main{
+  border: solid;
+  display: block;
+
+  background-color: #310959;
+  padding: 20px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+div{
+  background-color: #dfc9f19f;
+  padding: 40px;
+  border-radius: 10%;
+}
+
+
+#botao{
+  background-color: transparent;
+  display: flex;
+  border: solid;
+}
+
+input{
+  display: flex;
+  align-items: center;
+
+  border: transparent;
+  border-radius: 50px;
+  background-color: #310959;
+  color: aliceblue;
+  font-size: 40px;
+  
+  width: 400px;
+  height: 100px;
+
+}
+
+p{
+  text-align: center;
+}
