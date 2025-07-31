@@ -15,7 +15,8 @@
   justify-content: center;
 
   /* margin-top: 30px;
-margin-left: 20px; */
+ */
+ margin-left: 20px;
 
 padding: 10px;
 border-radius: 50%;
@@ -23,6 +24,12 @@ border-radius: 50%;
 
 width: 180px;
 height: 180px;
+}
+
+#dioni img:hover{
+  border:solid;
+  /*usado para mudae a */
+  content: url(galery/malas.png);
 }
 
 
