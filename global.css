@@ -8,3 +8,8 @@ h1{
   font-family: "Inspiration", cursive;
   font-style: italic;
 }
+
+li{
+  font-family: "Irish Grover", system-ui ;
+  list-style: none;
+}
