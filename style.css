@@ -74,6 +74,12 @@ input{
 
 }
 
+/*Quando passar o mouse por cima*/
+input:hover{
+  background-color: #4c1088;
+  color: bisque;
+}
+
 p{
   /* border: solid; */
   margin: 0;
