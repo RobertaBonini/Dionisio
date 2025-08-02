@@ -18,3 +18,24 @@ html, body {
   object-fit: cover;
   display: block; /* Remove espaçamento extra em imagens */
 }
+
+
+
+div{
+  /* display: flex; */
+  justify-content: space-between;
+  /* margin: 2.5%; */
+}
+
+div {
+  padding: 10px;
+  background-color: #dfc9f129;
+  /* border-radius: 50%; */
+  text-align: center;
+}
+
+#toten{
+  width: 80px;
+  margin-bottom: 0.2%;
+  margin-top: 0;
+}
