@@ -1,0 +1,20 @@
+/* Zera tudo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Garante que o body não tenha margens */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Faz a imagem ocupar toda a largura */
+#image img {
+  width: 100vw;
+  height: auto; /* ou defina altura se quiser um recorte */
+  object-fit: cover;
+  display: block; /* Remove espaçamento extra em imagens */
+}

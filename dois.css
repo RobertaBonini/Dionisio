@@ -1,7 +1,7 @@
 #cabeca {
   display: flex;
   justify-content: space-between;
-
+margin-top: 4%;
 }
 
 #dioni{
@@ -77,13 +77,20 @@ ul li:last-child{
   gap: 30px;
 }
 
-#taca{
-  padding: 0;
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #taca img:last-child {
- width: 100%;
-  object-fit: contain;
+ /* width: 100%;
+  object-fit: contain; */
+
+margin-top: 3.5%;
+  width: 100vw;
+  height: auto; /* ou defina altura se quiser um recorte */
+  object-fit: cover;
+  display: block; /* Remove espaçamento extra em imagens */
   
 }
