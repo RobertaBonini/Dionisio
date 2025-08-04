@@ -20,22 +20,38 @@ html, body {
 }
 
 
+main {
+  display: flex;
+  gap:10%;
+  margin: 2%;
+}
+
+main img{
+  width: 100px;
+  height: 100px;
+}
+
+main img:hover {
+  border: solid #dfc9f1af;
+  border-radius: 50%;
+}
 
 div{
-  /* display: flex; */
-  justify-content: space-between;
-  /* margin: 2.5%; */
+  background-color: #dfc9f11d;
+  border-radius: 50%;
+  width: 50%;
+  height: 30%;
+  padding: 5% 5%;
+
+  /*Faz ficar em coluna e define o seu espaço*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
-div {
-  padding: 10px;
-  background-color: #dfc9f129;
-  /* border-radius: 50%; */
+div ul{
   text-align: center;
+  font-size: 40px;
 }
 
-#toten{
-  width: 80px;
-  margin-bottom: 0.2%;
-  margin-top: 0;
-}
